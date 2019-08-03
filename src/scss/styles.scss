@@ -1,0 +1,73 @@
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "./home.scss";
+@import "./projects";
+@import "./about.scss";
+
+
+body {
+  // background: url(../assets/background.png);
+  background-color: #111111;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  white-space:nowrap;
+  font-family: 'TitlingGothicFB Wide';
+  font-weight: 900;
+  font-size: 5vw;
+  color: white;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  letter-spacing: 4.85px;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.50);
+  z-index: 1;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin-top: 4vh;
+  width: 94vw;
+  z-index: 1000;
+
+  .about__button {
+    position: relative;
+    width: 50px;
+    color: white;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+  }
+  
+  .about__button:hover {
+    position: relative;
+    width: 50px;
+    color: #737CEF;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    letter-spacing: 0.6px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.home__button {
+  background: url(../assets/icon.png);
+  background-size: cover;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}

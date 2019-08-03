@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+
+    .text__about{
+        grid-column: 1;
+        grid-row: 1 /span 3;
+        width: 50vw;
+        height: 100vh;
+        overflow: overlay;
+        background-color: #111111;
+
+        .title{
+            font-family: Gilroy;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 40px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 24px;
+            margin-left: 8vw;
+            margin-right: 8vw;
+            margin-top: 15vh;
+        }
+        
+        .text{
+        font-family: Gilroy Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        color: #FFFFFF;
+        line-height: 45px;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-top: 8vh;
+        }
+    }
+
+    .image__about{
+        grid-column: 2;
+        grid-row: 1;
+        width: 50vw;
+        height:64vh;
+        background-color: #3F3F3F;
+    }
+    
+    .social__about{
+        grid-column: 2;
+        grid-row: 2;
+        width: 50vw;
+        height: 13vh;
+        background-color: #0C0687;
+    
+    }
+    
+    .sub__about{
+        grid-column: 2;
+        grid-row: 3;
+        width: 50vw;
+        height: 23vh;
+        background-color: #090541;
+    }
+}

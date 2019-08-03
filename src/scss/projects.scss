@@ -1,0 +1,58 @@
+.case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    span {
+        color: #111111;
+        -webkit-text-fill-color: #111111; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #1D1CCF;
+      }
+
+    .case__image {
+        position: absolute;
+        width: 26vw;
+        transform: rotate(0deg);
+        transition: 0.4s;
+    }
+    
+    .case__image:hover {
+        transform: rotate(5deg);
+    }
+}
+
+.nintendo {
+    background: url(../assets/nintendo_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.louvre {
+    background: url(../assets/louvre_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.adidas {
+    background-size: cover;
+    background: url(../assets/adidas_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rostang {
+    background: url(../assets/rostang_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thrasher {
+    background-size: cover;
+    background: url(../assets/adidas_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
